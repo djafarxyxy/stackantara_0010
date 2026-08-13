@@ -55,3 +55,8 @@ public:
             cout << endl;
         }
     }
+    //10. pembuatan method isEmpty untuk mengecek kosong tidaknya stack
+    bool isEmpty() {
+        return top == NULL;
+    }
+};
