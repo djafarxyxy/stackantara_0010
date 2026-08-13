@@ -101,3 +101,13 @@ int main() {
             case 5:
                 cout << "Exiting Program." << endl;
                 break;
+            //20. kondisi default jika input selain case yang ditentukan dan selain angka 5
+            default:
+                cout << "Invalid choice. Try again." << endl;
+                break;
+        }
+    }
+
+    cout << endl;
+    return 0;
+}
