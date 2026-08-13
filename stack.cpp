@@ -33,3 +33,5 @@ public:
         cout << "Push Value: " << value << endl;
         return value;
     }
+    //8. pembuatan prosedur pop
+    void pop() {
