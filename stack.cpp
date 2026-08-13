@@ -97,3 +97,7 @@ int main() {
                 else
                     cout << "stact is Empty. No top value." << endl;
                 break;
+            //19. kondisi jika choice = 5
+            case 5:
+                cout << "Exiting Program." << endl;
+                break;
