@@ -60,3 +60,6 @@ public:
         return top == NULL;
     }
 };
+int main() {
+    //11. inisialisasi object stact
+    Stack stact;
