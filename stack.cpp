@@ -66,3 +66,5 @@ int main() {
     //12. inisialisasi variabel choice dan value untuk menangkap input pengguna
     int choice = 0;
     int value;
+    //13. perulangan selama nilai choice tidak sama dengan 5
+    while (choice != 5) {
