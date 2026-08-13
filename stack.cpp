@@ -24,3 +24,5 @@ public:
     Stack() {
         top = NULL;
     }
+    //7. pembuatan method push
+    int push(int value) {
