@@ -42,3 +42,8 @@ public:
             top = top->next;
         }
     }
+    //9. pembuatan prosedur peek
+    void peek() {
+        if (top == NULL) {
+            cout << "List is Empty." << endl;
+        } else {
