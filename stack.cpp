@@ -68,3 +68,10 @@ int main() {
     int value;
     //13. perulangan selama nilai choice tidak sama dengan 5
     while (choice != 5) {
+        //14. pembuatan program menu stact
+        cout << "1. Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "5. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
