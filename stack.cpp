@@ -90,3 +90,10 @@ int main() {
                 else
                     cout << "stact is Empty. Cannot pop." << endl;
                 break;
+            //18. kondisi jika choice = 3
+            case 3:
+                if (!stact.isEmpty())
+                    stact.peek();
+                else
+                    cout << "stact is Empty. No top value." << endl;
+                break;
