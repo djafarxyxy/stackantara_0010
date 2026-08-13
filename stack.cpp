@@ -35,3 +35,6 @@ public:
     }
     //8. pembuatan prosedur pop
     void pop() {
+        if (isEmpty()) {
+            cout << "stack is Empty" << endl;
+        } else {
