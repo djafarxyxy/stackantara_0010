@@ -38,3 +38,7 @@ public:
         if (isEmpty()) {
             cout << "stack is Empty" << endl;
         } else {
+            cout << "Popped Value: " << top->data << endl;
+            top = top->next;
+        }
+    }
