@@ -75,3 +75,5 @@ int main() {
         cout << "5. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+        //15. pembuatan kondisional statement choice
+        switch (choice) {
