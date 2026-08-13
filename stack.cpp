@@ -20,3 +20,7 @@ private:
     Node* top;
 
 public:
+    //6. inisialisasi nilai awal top sebagai NULL
+    Stack() {
+        top = NULL;
+    }
