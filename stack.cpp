@@ -83,3 +83,10 @@ int main() {
                 cin >> value;
                 stact.push(value);
                 break;
+            //17. kondisi jika choice = 2
+            case 2:
+                if (!stact.isEmpty())
+                    stact.pop();
+                else
+                    cout << "stact is Empty. Cannot pop." << endl;
+                break;
